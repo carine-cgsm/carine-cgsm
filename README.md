@@ -50,7 +50,7 @@
 ## `$ cat sobre.md`
 
 <!-- ✏️ EDITAR: texto de apresentação -->
-Analista de Suporte e Sistemas com experiência em **desenvolvimento e manutenção de sistemas web** em PHP, JavaScript e SQL. Atuo nas duas pontas: corrigindo falhas e dando suporte técnico, e também analisando requisitos e evoluindo funcionalidades.
+Desenvolvedora FullStack com experiência em **desenvolvimento e manutenção de sistemas web** em PHP, JavaScript e SQL.
 
 No dia a dia investigo problemas a fundo: **análise de logs, consultas em banco, testes funcionais e integrações via API**, até encontrar a causa real e não apenas o sintoma.
 
@@ -151,14 +151,13 @@ Tenho vivência em **ambientes SaaS e sistemas corporativos**, dos sistemas jur�
 
 ![PHP](https://img.shields.io/badge/PHP-000000?style=for-the-badge&logo=php&logoColor=FF2A2A)
 ![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=FF2A2A)
-![SQL](https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=databricks&logoColor=FF2A2A)
-![HTML5](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=FF2A2A)
-![CSS3](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css&logoColor=FF2A2A)
+![Java](https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=FF2A2A)
+![PDO](https://img.shields.io/badge/PDO-000000?style=for-the-badge&logo=php&logoColor=FF2A2A)
 
-**BANCO DE DADOS**
+**DADOS**
 
 ![MySQL](https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=FF2A2A)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=FF2A2A)
+![SQL Server](https://img.shields.io/badge/SQL_Server-000000?style=for-the-badge&logo=microsoftsqlserver&logoColor=FF2A2A)
 
 **INTEGRAÇÕES & APIs**
 
@@ -171,20 +170,20 @@ Tenho vivência em **ambientes SaaS e sistemas corporativos**, dos sistemas jur�
 
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-000000?style=for-the-badge&logo=bootstrap&logoColor=FF2A2A)
 ![DataTables](https://img.shields.io/badge/DataTables-000000?style=for-the-badge&logo=jquery&logoColor=FF2A2A)
+![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=FF2A2A)
 
-**FERRAMENTAS**
+**CLOUD & PLATAFORMA**
+
+![Azure](https://img.shields.io/badge/Azure-000000?style=for-the-badge&logo=microsoftazure&logoColor=FF2A2A)
+![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=FF2A2A)
+
+**TOOLS**
 
 ![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=FF2A2A)
 ![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=FF2A2A)
 ![GitLab](https://img.shields.io/badge/GitLab-000000?style=for-the-badge&logo=gitlab&logoColor=FF2A2A)
 ![VS Code](https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=vscodium&logoColor=FF2A2A)
 ![Chrome DevTools](https://img.shields.io/badge/Chrome_DevTools-000000?style=for-the-badge&logo=googlechrome&logoColor=FF2A2A)
-
-**SUPORTE & DIAGNÓSTICO**
-
-![Logs](https://img.shields.io/badge/An%C3%A1lise_de_logs-000000?style=for-the-badge&logo=datadog&logoColor=FF2A2A)
-![Incidentes](https://img.shields.io/badge/Gest%C3%A3o_de_chamados-000000?style=for-the-badge&logo=jira&logoColor=FF2A2A)
-![Active Directory](https://img.shields.io/badge/Active_Directory-000000?style=for-the-badge&logo=microsoft&logoColor=FF2A2A)
 
 <img src="assets/divisor.svg" width="100%" alt="" />
 
@@ -206,7 +205,7 @@ idiomas       Português · nativo
 
 <!-- ✏️ EDITAR: status profissional -->
 <pre>
-+ aberta a oportunidades em Suporte, Sistemas e Desenvolvimento Web
++ aberta a oportunidades em Desenvolvimento de Sistemas
 </pre>
 
 <img src="assets/divisor.svg" width="100%" alt="" />
