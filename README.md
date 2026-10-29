@@ -47,51 +47,9 @@
 
 <img src="divisor.svg" width="100%" alt="" />
 
-<!-- ═══════════════ 01 · SOBRE ═══════════════ -->
-<img src="titulo-sobre.svg" width="100%" alt="01 Sobre" />
-
-<!-- ✏️ EDITAR: texto de apresentação -->
-Desenvolvedora FullStack com experiência em **desenvolvimento e manutenção de sistemas web** em PHP, JavaScript e SQL.
-
-No dia a dia investigo problemas a fundo: **análise de logs, consultas em banco, testes funcionais e integrações via API**, até encontrar a causa real e não apenas o sintoma.
-
-Tenho vivência em **ambientes SaaS e sistemas corporativos**, dos sistemas jurídicos e emissores de notas fiscais à gestão de oficinas. Já atuei também na liderança técnica de equipe, distribuindo tarefas, revisando código e apoiando desenvolvedores e usuários.
-
-<!-- ✏️ EDITAR: competências (competencias.svg) -->
-<img src="competencias.svg" width="100%" alt="Competências: suporte técnico e diagnóstico; desenvolvimento web; banco de dados; integrações e APIs REST; análise de requisitos e testes" />
-
-<br>
-
-<!-- ═══════════════ 02 · STACK ═══════════════ -->
-<img src="titulo-stack.svg" width="100%" alt="02 Stack" />
-
-<!-- ✏️ EDITAR: tecnologias (stack.svg) -->
-<img src="stack.svg" width="100%" alt="Linguagens: PHP, JavaScript, Java, PDO. Dados: MySQL, SQL Server. Integrações e APIs: REST, JSON, Postman, AJAX. Front-end: Bootstrap, DataTables, React. Cloud e plataforma: Azure, Docker. Tools: Git, GitHub, GitLab, VS Code, Chrome DevTools." />
-
-<br>
-
-<!-- ═══════════════ 03 · FORMAÇÃO ═══════════════ -->
-<img src="titulo-formacao.svg" width="100%" alt="03 Formação" />
-
-<!-- ✏️ EDITAR: formação e idiomas -->
-**Análise e Desenvolvimento de Sistemas** · Unisinos<br>
-<sub>em andamento</sub>
-
-**Técnico em Informática** · QI Faculdades e Escola Técnica<br>
-<sub>concluído</sub>
-
-**Idiomas** · Português nativo · Inglês intermediário
-
-<br>
-
-<!-- ═══════════════ 04 · STATUS ═══════════════ -->
-<img src="titulo-status.svg" width="100%" alt="04 Status" />
-
-<!-- ✏️ EDITAR: status profissional (status.svg) -->
-<img src="status.svg" width="100%" alt="Aberta a oportunidades em Desenvolvimento de Sistemas" />
-
-<br>
-
-<p align="center">
-  <sub>sistemas estáveis · dados íntegros · usuários bem atendidos</sub>
-</p>
+<!--
+  ✏️ EDITAR: sobre, competências, stack, formação e status
+  ficam todos em conteudo.svg (um único fundo preto contínuo).
+  O topo do arquivo explica como editar cada parte.
+-->
+<img src="conteudo.svg" width="100%" alt="Sobre: Desenvolvedora FullStack com experiência em desenvolvimento e manutenção de sistemas web em PHP, JavaScript e SQL. Stack: PHP, JavaScript, Java, PDO, MySQL, SQL Server, REST, JSON, Postman, AJAX, Bootstrap, DataTables, React, Azure, Docker, Git, GitHub, GitLab, VS Code, Chrome DevTools. Formação: Análise e Desenvolvimento de Sistemas (Unisinos, em andamento); Técnico em Informática (QI). Status: aberta a oportunidades em Desenvolvimento de Sistemas." />

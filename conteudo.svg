@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1204" viewBox="0 0 900 1204" role="img" aria-label="Sobre, stack, formação e status de Carine Gomes">
+  <!--
+    ============================================================
+    CONTEÚDO DO PERFIL — tudo num único fundo preto
+    ✏️ Como editar:
+      • Cada seção está marcada com um comentário ═════════
+      • Texto comum: dentro de <text class="p">
+      • Destaque em branco/negrito: <tspan class="b">…</tspan>
+      • Linhas longas: o SVG não quebra linha sozinho. Mantenha
+        cada linha com até ~90 caracteres e crie outro <text>
+        com "y" 22 maior para continuar.
+      • Ao adicionar linhas, aumente height e viewBox na 1ª linha
+        e some o mesmo valor no "y" de tudo que vem abaixo.
+      • Use &amp; no lugar de & dentro dos textos.
+      • Cores: variáveis no bloco style (seletor svg).
+    ============================================================
+  -->
+  <style>
+    svg { --bg:#000000; --fg:#f2f2f2; --txt:#b5b5b5; --muted:#6f6f6f; --line:#1c1c1c; --red:#ff2a2a;
+          --font:"SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    text { font-family: var(--font); }
+    .num  { fill: var(--red); font-size: 12px; letter-spacing: 2px; }
+    .tit  { fill: var(--fg); font-size: 17px; font-weight: 600; letter-spacing: 7px; }
+    .p    { fill: var(--txt); font-size: 14px; }
+    .b    { fill: var(--fg); font-weight: 700; }
+    .item { fill: var(--fg); font-size: 14px; }
+    .tick { fill: var(--red); }
+    .lbl  { fill: var(--muted); font-size: 11px; letter-spacing: 3px; }
+    .val  { fill: var(--fg); font-size: 14px; }
+    .sep, .base { stroke: var(--line); stroke-width: 1; }
+    .draw { stroke: var(--red); stroke-width: 1.5; stroke-dasharray: 120; stroke-dashoffset: 120;
+             animation: tracar 1s cubic-bezier(.6,0,.2,1) forwards; }
+    .a    { opacity: 0; animation: surgir .7s ease-out forwards; }
+    .dot  { fill: var(--red); }
+    .halo { fill: none; stroke: var(--red); stroke-width: 1; opacity: 0; animation: onda 2s ease-out 3.4s infinite; }
+    @keyframes surgir { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes tracar { to { stroke-dashoffset: 0; } }
+    @keyframes onda   { 0% { opacity: .8; transform: scale(1); } 100% { opacity: 0; transform: scale(2.6); } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; } .a { opacity: 1; } .draw { stroke-dashoffset: 0; }
+    }
+  </style>
+
+  <rect width="900" height="1204" rx="8" fill="var(--bg)"/>
+
+  <!-- ═════════ 01 · SOBRE  (✏️ textos abaixo: tspan class="b" = destaque) ═════════ -->
+  <g class="a" style="animation-delay:0.2s">
+    <text class="num" x="24" y="44">01</text>
+    <text class="tit" x="64" y="45">SOBRE</text>
+  </g>
+  <line class="base" x1="24" y1="58" x2="876" y2="58"/>
+  <line class="draw" x1="24" y1="58" x2="144" y2="58" style="animation-delay:0.5s"/>
+  <g class="a" style="animation-delay:0.4s">
+    <text class="p" x="24" y="92">Desenvolvedora FullStack com experiência em <tspan class="b">desenvolvimento e manutenção de sistemas web</tspan></text>
+    <text class="p" x="24" y="114">em PHP, JavaScript e SQL.</text>
+  </g>
+  <g class="a" style="animation-delay:0.55s">
+    <text class="p" x="24" y="148">No dia a dia investigo problemas a fundo: <tspan class="b">análise de logs, consultas em banco, testes</tspan></text>
+    <text class="p" x="24" y="170"><tspan class="b">funcionais e integrações via API</tspan>, até encontrar a causa real e não apenas o sintoma.</text>
+  </g>
+  <g class="a" style="animation-delay:0.7s">
+    <text class="p" x="24" y="204">Tenho vivência em <tspan class="b">ambientes SaaS e sistemas corporativos</tspan>, dos sistemas jurídicos e</text>
+    <text class="p" x="24" y="226">emissores de notas fiscais à gestão de oficinas. Já atuei também na liderança técnica</text>
+    <text class="p" x="24" y="248">de equipe, distribuindo tarefas, revisando código e apoiando desenvolvedores e usuários.</text>
+  </g>
+
+  <!-- ✏️ Competências: um <g> por item (some 30 no y para adicionar) -->
+  <g class="a" style="animation-delay:0.85s"><rect class="tick" x="24" y="283" width="6" height="6"/><text class="item" x="46" y="292">suporte técnico e diagnóstico</text></g>
+  <g class="a" style="animation-delay:0.97s"><rect class="tick" x="24" y="313" width="6" height="6"/><text class="item" x="46" y="322">desenvolvimento web · php · javascript</text></g>
+  <g class="a" style="animation-delay:1.09s"><rect class="tick" x="24" y="343" width="6" height="6"/><text class="item" x="46" y="352">banco de dados · mysql · sql server</text></g>
+  <g class="a" style="animation-delay:1.21s"><rect class="tick" x="24" y="373" width="6" height="6"/><text class="item" x="46" y="382">integrações e apis rest</text></g>
+  <g class="a" style="animation-delay:1.33s"><rect class="tick" x="24" y="403" width="6" height="6"/><text class="item" x="46" y="412">análise de requisitos e testes</text></g>
+
+  <!-- ═════════ 02 · STACK  (✏️ lbl = categoria · val = tecnologias) ═════════ -->
+  <g class="a" style="animation-delay:1.5s">
+    <text class="num" x="24" y="498">02</text>
+    <text class="tit" x="64" y="499">STACK</text>
+  </g>
+  <line class="base" x1="24" y1="512" x2="876" y2="512"/>
+  <line class="draw" x1="24" y1="512" x2="144" y2="512" style="animation-delay:1.8s"/>
+  <g class="a" style="animation-delay:1.70s"><text class="lbl" x="24" y="538">LINGUAGENS</text><text class="val" x="260" y="538">PHP · JavaScript · Java · PDO</text><line class="sep" x1="24" y1="554" x2="876" y2="554"/></g>
+  <g class="a" style="animation-delay:1.80s"><text class="lbl" x="24" y="580">DADOS</text><text class="val" x="260" y="580">MySQL · SQL Server</text><line class="sep" x1="24" y1="596" x2="876" y2="596"/></g>
+  <g class="a" style="animation-delay:1.90s"><text class="lbl" x="24" y="622">INTEGRAÇÕES &amp; APIS</text><text class="val" x="260" y="622">REST · JSON · Postman · AJAX</text><line class="sep" x1="24" y1="638" x2="876" y2="638"/></g>
+  <g class="a" style="animation-delay:2.00s"><text class="lbl" x="24" y="664">FRONT-END</text><text class="val" x="260" y="664">Bootstrap · DataTables · React</text><line class="sep" x1="24" y1="680" x2="876" y2="680"/></g>
+  <g class="a" style="animation-delay:2.10s"><text class="lbl" x="24" y="706">CLOUD &amp; PLATAFORMA</text><text class="val" x="260" y="706">Azure · Docker</text><line class="sep" x1="24" y1="722" x2="876" y2="722"/></g>
+  <g class="a" style="animation-delay:2.20s"><text class="lbl" x="24" y="748">TOOLS</text><text class="val" x="260" y="748">Git · GitHub · GitLab · VS Code · Chrome DevTools</text><line class="sep" x1="24" y1="764" x2="876" y2="764"/></g>
+
+  <!-- ═════════ 03 · FORMAÇÃO ═════════ -->
+  <g class="a" style="animation-delay:2.4s">
+    <text class="num" x="24" y="838">03</text>
+    <text class="tit" x="64" y="839">FORMAÇÃO</text>
+  </g>
+  <line class="base" x1="24" y1="852" x2="876" y2="852"/>
+  <line class="draw" x1="24" y1="852" x2="144" y2="852" style="animation-delay:2.7s"/>
+  <g class="a" style="animation-delay:2.60s"><text class="p" x="24" y="878"><tspan class="b">Análise e Desenvolvimento de Sistemas</tspan> · Unisinos</text><text class="lbl" x="24" y="898">EM ANDAMENTO</text></g>
+  <g class="a" style="animation-delay:2.72s"><text class="p" x="24" y="926"><tspan class="b">Técnico em Informática</tspan> · QI Faculdades e Escola Técnica</text><text class="lbl" x="24" y="946">CONCLUÍDO</text></g>
+  <g class="a" style="animation-delay:2.84s"><text class="p" x="24" y="974"><tspan class="b">Idiomas</tspan> · Português nativo · Inglês intermediário</text></g>
+
+  <!-- ═════════ 04 · STATUS ═════════ -->
+  <g class="a" style="animation-delay:3.0s">
+    <text class="num" x="24" y="1054">04</text>
+    <text class="tit" x="64" y="1055">STATUS</text>
+  </g>
+  <line class="base" x1="24" y1="1068" x2="876" y2="1068"/>
+  <line class="draw" x1="24" y1="1068" x2="144" y2="1068" style="animation-delay:3.3s"/>
+  <g class="a" style="animation-delay:3.2s">
+    <circle class="halo" cx="30" cy="1089" r="4" style="transform-origin:30px 1089px"/>
+    <circle class="dot"  cx="30" cy="1089" r="4"/>
+    <text class="p b" x="46" y="1094">aberta a oportunidades em Desenvolvimento de Sistemas</text>
+  </g>
+  <line class="base" x1="24" y1="1140" x2="876" y2="1140"/>
+  <text class="lbl a" x="450" y="1172" text-anchor="middle" style="animation-delay:3.4s">SISTEMAS ESTÁVEIS · DADOS ÍNTEGROS · USUÁRIOS BEM ATENDIDOS</text>
+</svg>
