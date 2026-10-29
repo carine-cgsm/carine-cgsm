@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="246" viewBox="0 0 480 246" role="img" aria-label="carine@sistemas:~$ ./competencias --list">
+  <!--
+    ============================================================
+    LISTA DE COMPETÊNCIAS
+    ✏️ Para editar: troque o texto de cada <text class="item">.
+       Para incluir mais itens, some 22 no "y" e 0.25s no delay
+       e aumente height/viewBox.
+    ============================================================
+  -->
+  <style>
+    svg { --bg:#000; --border:#2a0000; --red:#ff2a2a; --white:#f2f2f2; --gray:#9a9a9a;
+          --font:"SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    text { font-family: var(--font); font-size: 14px; }
+    .cmd  { fill: var(--white); }
+    .item { fill: var(--gray); opacity: 0; animation: entrar .5s ease-out forwards; }
+    .num  { fill: var(--red); }
+    .fim  { fill: var(--red); opacity: 0; animation: entrar .5s ease-out 1.8s forwards; }
+    @keyframes entrar { from { opacity:0; transform: translateX(-8px); } to { opacity:1; transform: translateX(0); } }
+    @media (prefers-reduced-motion: reduce) { * { animation:none !important; } .item, .fim { opacity:1; } }
+  </style>
+
+  <rect width="480" height="246" rx="8" fill="var(--bg)"/>
+  <rect x=".5" y=".5" width="479" height="245" rx="8" fill="none" stroke="var(--border)"/>
+
+  <text class="cmd" x="20" y="34">carine@sistemas:~$ ./competencias --list</text>
+
+  <text class="item" x="20" y="78"  style="animation-delay:.4s"><tspan class="num">[01]</tspan> suporte técnico e diagnóstico</text>
+  <text class="item" x="20" y="100" style="animation-delay:.65s"><tspan class="num">[02]</tspan> desenvolvimento web · php · javascript</text>
+  <text class="item" x="20" y="122" style="animation-delay:.9s"><tspan class="num">[03]</tspan> banco de dados · mysql · postgresql</text>
+  <text class="item" x="20" y="144" style="animation-delay:1.15s"><tspan class="num">[04]</tspan> integrações e apis rest</text>
+  <text class="item" x="20" y="166" style="animation-delay:1.4s"><tspan class="num">[05]</tspan> análise de requisitos e testes</text>
+
+  <text class="fim" x="20" y="210">status: 5 módulos carregados com segurança</text>
+</svg>
