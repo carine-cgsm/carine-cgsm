@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="250" viewBox="0 0 620 250" role="img" aria-label="Sequência de inicialização do perfil">
+  <!--
+    ============================================================
+    TERMINAL DE INICIALIZAÇÃO
+    ✏️ Para editar:
+      • Cada linha é um <text class="linha"> com seu animation-delay.
+      • Para adicionar uma linha: copie uma existente, some ~22 no "y"
+        e ~0.6s no delay. Aumente height/viewBox se precisar.
+    ============================================================
+  -->
+  <style>
+    svg {
+      --bg: #000000; --bar: #0b0b0b; --border: #2a0000;
+      --red: #ff2a2a; --white: #f2f2f2; --gray: #9a9a9a; --dim: #555;
+      --font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+    text { font-family: var(--font); font-size: 14px; }
+    .titulo { fill: var(--dim); font-size: 12px; }
+    .cmd    { fill: var(--white); }
+    .ok     { fill: var(--red); font-weight: 700; }
+    .txt    { fill: var(--gray); }
+    .final  { fill: var(--red); }
+
+    .linha  { opacity: 0; animation: digitar .35s steps(1, end) forwards; }
+    @keyframes digitar { to { opacity: 1; } }
+
+    .cursor { fill: var(--red); opacity: 0; animation: digitar .1s 3.6s forwards, piscar 1s steps(1) 3.7s infinite; }
+    @keyframes piscar { 50% { opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .linha, .cursor { opacity: 1; }
+    }
+  </style>
+
+  <rect width="620" height="250" rx="8" fill="var(--bg)"/>
+  <rect x=".5" y=".5" width="619" height="249" rx="8" fill="none" stroke="var(--border)"/>
+
+  <!-- Barra superior -->
+  <path d="M8 .5h604a7.5 7.5 0 0 1 7.5 7.5v24H.5V8A7.5 7.5 0 0 1 8 .5z" fill="var(--bar)"/>
+  <circle cx="20" cy="16" r="5" fill="#222"/>
+  <circle cx="38" cy="16" r="5" fill="#222"/>
+  <circle cx="56" cy="16" r="5" fill="#ff2a2a" opacity=".8"/>
+  <text class="titulo" x="310" y="20" text-anchor="middle">carine@sistemas: ~</text>
+
+  <!-- Linhas -->
+  <text class="linha cmd" x="22" y="64"  style="animation-delay:.3s">$ ./iniciar --perfil carine-gomes</text>
+  <text class="linha"     x="22" y="94"  style="animation-delay:1.0s"><tspan class="ok">[ OK ]</tspan><tspan class="txt"> verificando integridade do sistema</tspan></text>
+  <text class="linha"     x="22" y="116" style="animation-delay:1.6s"><tspan class="ok">[ OK ]</tspan><tspan class="txt"> carregando módulos: php · js · sql · apis</tspan></text>
+  <text class="linha"     x="22" y="138" style="animation-delay:2.2s"><tspan class="ok">[ OK ]</tspan><tspan class="txt"> diagnóstico de incidentes: ativo</tspan></text>
+  <text class="linha"     x="22" y="160" style="animation-delay:2.8s"><tspan class="ok">[ OK ]</tspan><tspan class="txt"> canal seguro estabelecido</tspan></text>
+  <text class="linha final" x="22" y="198" style="animation-delay:3.4s">&gt; sistema pronto. bem-vindo(a).</text>
+
+  <!-- Cursor piscando -->
+  <rect class="cursor" x="290" y="186" width="9" height="16"/>
+</svg>

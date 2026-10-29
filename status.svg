@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="56" viewBox="0 0 900 56" role="img" aria-label="Status: aberta a oportunidades em Desenvolvimento de Sistemas">
+  <!--
+    STATUS (estilo minimalista)
+    ✏️ Para editar: troque o texto em id="status".
+  -->
+  <style>
+    svg { --bg:#000000; --fg:#f2f2f2; --muted:#7a7a7a; --line:#1f1f1f; --red:#ff2a2a; --font:"SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    text { font-family: var(--font); }
+    .txt { fill: var(--fg); font-size: 14px; letter-spacing: .5px; }
+    .dot { fill: var(--red); animation: pulsar 2s ease-in-out infinite; }
+    .halo { fill: none; stroke: var(--red); stroke-width: 1; opacity: 0; transform-origin: 32px 28px; animation: onda 2s ease-out infinite; }
+    @keyframes pulsar { 0%,100% { opacity: 1; } 50% { opacity: .4; } }
+    @keyframes onda { 0% { opacity: .8; transform: scale(1); } 100% { opacity: 0; transform: scale(2.6); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="900" height="56" rx="6" fill="var(--bg)"/>
+  <circle class="halo" cx="32" cy="28" r="4"/>
+  <circle class="dot"  cx="32" cy="28" r="4"/>
+  <text id="status" class="txt" x="52" y="33">aberta a oportunidades em Desenvolvimento de Sistemas</text>
+</svg>

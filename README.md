@@ -4,20 +4,20 @@
   ║                                                              ║
   ║  Como usar no GitHub:                                        ║
   ║   1. Crie um repositório com o MESMO nome do seu usuário.     ║
-  ║   2. Envie este README.md e a pasta assets/ para ele.         ║
+  ║   2. Envie este README.md e todos os arquivos .svg para ele.  ║
   ║                                                              ║
   ║  Como editar:                                                ║
   ║   • Procure os marcadores  ✏️ EDITAR  ao longo do arquivo.    ║
-  ║   • Textos animados ficam nos .svg dentro de assets/          ║
+  ║   • Textos animados ficam nos arquivos .svg desta pasta       ║
   ║     (cada arquivo explica no topo o que alterar).             ║
   ║   • Cores: vermelho FF2A2A · preto 000000 · cinza 8A8A8A      ║
   ║   • Estes comentários não aparecem na página do GitHub.       ║
   ╚══════════════════════════════════════════════════════════════╝
 -->
 
-<!-- ✏️ EDITAR: cabeçalho animado (nome/cargo em assets/header.svg) -->
+<!-- ✏️ EDITAR: cabeçalho animado (nome/cargo em header.svg) -->
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Carine Gomes — Desenvolvedor Full Stack e entusiasta por tecnologia" />
+  <img src="header.svg" width="100%" alt="Carine Gomes — Desenvolvedor Full Stack e entusiasta por tecnologia" />
 </p>
 
 <!-- ✏️ EDITAR: links de contato (troque as URLs) -->
@@ -40,14 +40,15 @@
   </a>
 </p>
 
-<!-- ✏️ EDITAR: sequência de inicialização (assets/boot.svg) -->
+<!-- ✏️ EDITAR: sequência de inicialização (boot.svg) -->
 <p align="center">
-  <img src="assets/boot.svg" width="620" alt="carine@sistemas: inicialização concluída" />
+  <img src="boot.svg" width="620" alt="carine@sistemas: inicialização concluída" />
 </p>
 
-<img src="assets/divisor.svg" width="100%" alt="" />
+<img src="divisor.svg" width="100%" alt="" />
 
-## `$ cat sobre.md`
+<!-- ═══════════════ 01 · SOBRE ═══════════════ -->
+<img src="titulo-sobre.svg" width="100%" alt="01 Sobre" />
 
 <!-- ✏️ EDITAR: texto de apresentação -->
 Desenvolvedora FullStack com experiência em **desenvolvimento e manutenção de sistemas web** em PHP, JavaScript e SQL.
@@ -56,159 +57,40 @@ No dia a dia investigo problemas a fundo: **análise de logs, consultas em banco
 
 Tenho vivência em **ambientes SaaS e sistemas corporativos**, dos sistemas jurídicos e emissores de notas fiscais à gestão de oficinas. Já atuei também na liderança técnica de equipe, distribuindo tarefas, revisando código e apoiando desenvolvedores e usuários.
 
-<!-- ✏️ EDITAR: lista de competências (assets/competencias.svg) -->
-<p align="left">
-  <img src="assets/competencias.svg" width="480" alt="carine@sistemas:~$ ./competencias --list" />
-</p>
+<!-- ✏️ EDITAR: competências (competencias.svg) -->
+<img src="competencias.svg" width="100%" alt="Competências: suporte técnico e diagnóstico; desenvolvimento web; banco de dados; integrações e APIs REST; análise de requisitos e testes" />
 
-<img src="assets/divisor.svg" width="100%" alt="" />
+<br>
 
-## `$ tail -f experiencia.log`
+<!-- ═══════════════ 02 · STACK ═══════════════ -->
+<img src="titulo-stack.svg" width="100%" alt="02 Stack" />
 
-<!--
-  ✏️ EDITAR: experiências.
-  Cada bloco <td> é um card. Para adicionar um novo, copie um <td>…</td>
-  inteiro. Mantenha no máximo 2 cards por <tr>.
--->
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><code>01</code> · Dias Do Canto Sociedade de Advogados</h3>
-      <p><strong>Desenvolvedora PHP / Full Stack</strong><br><sub>jul/2025 — jan/2026</sub></p>
-      <p>
-        <img alt="PHP" src="https://img.shields.io/badge/PHP-000000?style=flat-square&logo=php&logoColor=FF2A2A">
-        <img alt="SQL" src="https://img.shields.io/badge/SQL-000000?style=flat-square&logo=mysql&logoColor=FF2A2A">
-        <img alt="Liderança técnica" src="https://img.shields.io/badge/Lideran%C3%A7a_t%C3%A9cnica-000000?style=flat-square">
-      </p>
-      <p>Desenvolvimento e manutenção de sistemas internos e do <strong>sistema jurídico</strong> de gestão de processos do escritório.</p>
-      <ul>
-        <li>Refatoração e otimização de performance.</li>
-        <li>Integrações entre sistemas e modelagem de consultas SQL.</li>
-        <li>Ciclo completo: requisitos, desenvolvimento, testes e implantação.</li>
-        <li>Liderança técnica, distribuição de tarefas e code review.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3><code>02</code> · SYSCAR — Gestão para Oficinas (SaaS)</h3>
-      <p><strong>Programadora / Suporte Técnico de Sistemas</strong><br><sub>mar/2022 — jul/2024</sub></p>
-      <p>
-        <img alt="PHP" src="https://img.shields.io/badge/PHP-000000?style=flat-square&logo=php&logoColor=FF2A2A">
-        <img alt="MySQL" src="https://img.shields.io/badge/MySQL-000000?style=flat-square&logo=mysql&logoColor=FF2A2A">
-        <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=FF2A2A">
-        <img alt="AJAX" src="https://img.shields.io/badge/AJAX-000000?style=flat-square">
-      </p>
-      <p>Desenvolvimento e manutenção de sistema web corporativo, com regras de negócio e novas funcionalidades.</p>
-      <ul>
-        <li>Integração front-end ↔ back-end via AJAX.</li>
-        <li>Migração de dados com scripts de importação CSV → MySQL.</li>
-        <li>Ajustes de estrutura de banco e validação de dados.</li>
-        <li>Suporte avançado e ponte entre usuários e desenvolvimento.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><code>03</code> · Orion Cloud</h3>
-      <p><strong>Full Stack Developer</strong> <sub>ago/2024 — jun/2025</sub><br><strong>Analista de Suporte Técnico</strong> <sub>abr/2018 — nov/2019</sub></p>
-      <p>
-        <img alt="Notas fiscais" src="https://img.shields.io/badge/Emissor_de_NF-000000?style=flat-square">
-        <img alt="Testes" src="https://img.shields.io/badge/Testes_funcionais-000000?style=flat-square">
-      </p>
-      <p>Duas passagens na manutenção e suporte do <strong>sistema emissor de notas fiscais</strong>.</p>
-      <ul>
-        <li>Análise de requisitos e testes funcionais.</li>
-        <li>Identificação de falhas e documentação técnica.</li>
-        <li>Suporte a usuários e melhoria contínua de processos.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3><code>04</code> · Bremen Importadora</h3>
-      <p><strong>Analista de Suporte de TI</strong><br><sub>nov/2019 — fev/2022</sub></p>
-      <p>
-        <img alt="ERP" src="https://img.shields.io/badge/ERP_SIGER-000000?style=flat-square">
-        <img alt="Active Directory" src="https://img.shields.io/badge/Active_Directory-000000?style=flat-square&logo=microsoft&logoColor=FF2A2A">
-      </p>
-      <p>Gerenciamento e suporte do sistema corporativo <strong>SIGER</strong>.</p>
-      <ul>
-        <li>Atendimento aos usuários.</li>
-        <li>Implementação de melhorias sistêmicas.</li>
-        <li>Definição de regras de negócio.</li>
-        <li>Administração básica de Active Directory.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<!-- ✏️ EDITAR: tecnologias (stack.svg) -->
+<img src="stack.svg" width="100%" alt="Linguagens: PHP, JavaScript, Java, PDO. Dados: MySQL, SQL Server. Integrações e APIs: REST, JSON, Postman, AJAX. Front-end: Bootstrap, DataTables, React. Cloud e plataforma: Azure, Docker. Tools: Git, GitHub, GitLab, VS Code, Chrome DevTools." />
 
-<img src="assets/divisor.svg" width="100%" alt="" />
+<br>
 
-## `$ ./stack --list`
-
-<!-- ✏️ EDITAR: tecnologias. Modelo de badge:
-     https://img.shields.io/badge/NOME-000000?style=for-the-badge&logo=SLUG&logoColor=FF2A2A
-     Slugs de logos: https://simpleicons.org -->
-
-**LINGUAGENS**
-
-![PHP](https://img.shields.io/badge/PHP-000000?style=for-the-badge&logo=php&logoColor=FF2A2A)
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=FF2A2A)
-![Java](https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=FF2A2A)
-![PDO](https://img.shields.io/badge/PDO-000000?style=for-the-badge&logo=php&logoColor=FF2A2A)
-
-**DADOS**
-
-![MySQL](https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=FF2A2A)
-![SQL Server](https://img.shields.io/badge/SQL_Server-000000?style=for-the-badge&logo=microsoftsqlserver&logoColor=FF2A2A)
-
-**INTEGRAÇÕES & APIs**
-
-![REST](https://img.shields.io/badge/REST_API-000000?style=for-the-badge&logo=fastapi&logoColor=FF2A2A)
-![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=FF2A2A)
-![Postman](https://img.shields.io/badge/Postman-000000?style=for-the-badge&logo=postman&logoColor=FF2A2A)
-![AJAX](https://img.shields.io/badge/AJAX-000000?style=for-the-badge&logo=javascript&logoColor=FF2A2A)
-
-**FRONT-END**
-
-![Bootstrap](https://img.shields.io/badge/Bootstrap-000000?style=for-the-badge&logo=bootstrap&logoColor=FF2A2A)
-![DataTables](https://img.shields.io/badge/DataTables-000000?style=for-the-badge&logo=jquery&logoColor=FF2A2A)
-![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=FF2A2A)
-
-**CLOUD & PLATAFORMA**
-
-![Azure](https://img.shields.io/badge/Azure-000000?style=for-the-badge&logo=microsoftazure&logoColor=FF2A2A)
-![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=FF2A2A)
-
-**TOOLS**
-
-![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=FF2A2A)
-![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=FF2A2A)
-![GitLab](https://img.shields.io/badge/GitLab-000000?style=for-the-badge&logo=gitlab&logoColor=FF2A2A)
-![VS Code](https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=vscodium&logoColor=FF2A2A)
-![Chrome DevTools](https://img.shields.io/badge/Chrome_DevTools-000000?style=for-the-badge&logo=googlechrome&logoColor=FF2A2A)
-
-<img src="assets/divisor.svg" width="100%" alt="" />
-
-## `$ cat formacao.txt`
+<!-- ═══════════════ 03 · FORMAÇÃO ═══════════════ -->
+<img src="titulo-formacao.svg" width="100%" alt="03 Formação" />
 
 <!-- ✏️ EDITAR: formação e idiomas -->
-<pre>
-em andamento  Análise e Desenvolvimento de Sistemas
-              Unisinos
+**Análise e Desenvolvimento de Sistemas** · Unisinos<br>
+<sub>em andamento</sub>
 
-concluído     Técnico em Informática
-              QI Faculdades e Escola Técnica
+**Técnico em Informática** · QI Faculdades e Escola Técnica<br>
+<sub>concluído</sub>
 
-idiomas       Português · nativo
-              Inglês    · intermediário
-</pre>
+**Idiomas** · Português nativo · Inglês intermediário
 
-## `$ echo $STATUS`
+<br>
 
-<!-- ✏️ EDITAR: status profissional -->
-<pre>
-+ aberta a oportunidades em Desenvolvimento de Sistemas
-</pre>
+<!-- ═══════════════ 04 · STATUS ═══════════════ -->
+<img src="titulo-status.svg" width="100%" alt="04 Status" />
 
-<img src="assets/divisor.svg" width="100%" alt="" />
+<!-- ✏️ EDITAR: status profissional (status.svg) -->
+<img src="status.svg" width="100%" alt="Aberta a oportunidades em Desenvolvimento de Sistemas" />
+
+<br>
 
 <p align="center">
   <sub>sistemas estáveis · dados íntegros · usuários bem atendidos</sub>

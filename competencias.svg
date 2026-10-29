@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="206" viewBox="0 0 900 206" role="img" aria-label="Competências: suporte técnico e diagnóstico, desenvolvimento web · php · javascript, banco de dados · mysql · sql server, integrações e apis rest, análise de requisitos e testes">
+  <!--
+    COMPETÊNCIAS (estilo minimalista)
+    ✏️ Para editar: troque o texto de cada <text class="item">.
+       Para adicionar um item, copie um bloco <g>, some 36 no "y" do rect e do text,
+       some .15s no animation-delay e aumente height/viewBox em 36.
+  -->
+  <style>
+    svg { --bg:#000000; --fg:#f2f2f2; --muted:#7a7a7a; --line:#1f1f1f; --red:#ff2a2a; --font:"SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    text { font-family: var(--font); }
+    .item { fill: var(--fg); font-size: 14px; letter-spacing: .5px; }
+    .tick { fill: var(--red); }
+    .a    { opacity: 0; animation: surgir .6s ease-out forwards; }
+    @keyframes surgir { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .a { opacity: 1 !important; } .draw { stroke-dashoffset: 0 !important; } }
+  </style>
+  <rect width="900" height="206" rx="6" fill="var(--bg)"/>
+  <g class="a" style="animation-delay:0.20s">
+    <rect class="tick" x="24" y="31" width="6" height="6"/>
+    <text class="item" x="46" y="40">suporte técnico e diagnóstico</text>
+  </g>
+  <g class="a" style="animation-delay:0.35s">
+    <rect class="tick" x="24" y="67" width="6" height="6"/>
+    <text class="item" x="46" y="76">desenvolvimento web · php · javascript</text>
+  </g>
+  <g class="a" style="animation-delay:0.50s">
+    <rect class="tick" x="24" y="103" width="6" height="6"/>
+    <text class="item" x="46" y="112">banco de dados · mysql · sql server</text>
+  </g>
+  <g class="a" style="animation-delay:0.65s">
+    <rect class="tick" x="24" y="139" width="6" height="6"/>
+    <text class="item" x="46" y="148">integrações e apis rest</text>
+  </g>
+  <g class="a" style="animation-delay:0.80s">
+    <rect class="tick" x="24" y="175" width="6" height="6"/>
+    <text class="item" x="46" y="184">análise de requisitos e testes</text>
+  </g>
+</svg>
